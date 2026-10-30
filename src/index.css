@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-kanit: "Kanit", sans-serif;
+  --font-itim: "Itim", cursive;
+  --font-charm: "Charm", cursive;
+}
+
+body {
+  font-family: var(--font-kanit);
+  background-color: #f4f5f7;
+  min-height: 100vh;
+}

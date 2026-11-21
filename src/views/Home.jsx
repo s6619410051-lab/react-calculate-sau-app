@@ -14,28 +14,9 @@ export default function Home() {
       </div>
 
       <div className="flex flex-wrap justify-center gap-6">
-        <CardMenu
-          image={bmiIcon}
-          title="BMI (ดัชนีมวลกาย)"
-          description="คำนวณค่าดัชนีมวลกายจากน้ำหนักและส่วนสูง"
-          to="/bmi"
-        />
-        <CardMenu
-          image={bmrIcon}
-          title="BMR (อัตราการเผาผลาญ)"
-          description="คำนวณพลังงานที่ร่างกายใช้ต่อวัน"
-          to="/bmr"
-        />
-        <CardMenu
-          image={carIcon}
-          title="ค่างวดรถยนต์"
-          description="คำนวณค่างวดรถยนต์ต่อเดือน"
-          to="/car"
-        />
-      </div>
-
-      <div className="mt-10">
-        <p className="text-sm text-gray-500">© 2026 CAL-SAU. Reserved. Created by Veerayut SAU</p>
+        <CardMenu image={bmiIcon} title="BMI (ดัชนีมวลกาย)" description="คำนวณค่าดัชนีมวลกายจากน้ำหนักและส่วนสูง" to="/bmi" />
+        <CardMenu image={bmrIcon} title="BMR (อัตราการเผาผลาญ)" description="คำนวณพลังงานที่ร่างกายใช้ต่อวัน" to="/bmr" />
+        <CardMenu image={carIcon} title="ค่างวดรถยนต์" description="คำนวณค่างวดรถยนต์ต่อเดือน" to="/car" />
       </div>
     </main>
   );
